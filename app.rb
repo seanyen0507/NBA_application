@@ -2,7 +2,6 @@ require 'sinatra/base'
 require_relative 'model/nbaplayer'
 require 'NBA_info'
 require 'json'
-require 'haml'
 require 'sinatra/flash'
 
 require 'httparty'
@@ -95,7 +94,7 @@ class NBACatcherApp < Sinatra::Base
   end
 
   get '/' do
-    haml :home
+    'NBA catcher is up.'
   end
 
   get '/api/v1/player/:playername.json' do
