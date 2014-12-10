@@ -3,3 +3,6 @@ NBA_application
 ===============
 
 NBA_catcher's application layer
+
+You can see the interface with this API here:
+http://nba-presentation.herokuapp.com/
